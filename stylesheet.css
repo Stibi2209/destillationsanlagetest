@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 3.4em;
+	padding: 0;
+	margin: 0;
+}
+
+img.logo{
+	position: absolute;
+	height: 9em;
+	width: 12%;
+}
+
+div.smoothie-chart-tooltip {
+  background: #444;
+  padding: 1em;
+  margin-top: 1.25em;
+  font-family: consolas;
+  color: white;
+  font-size: 1em;
+  pointer-events: none;
+}
+
+#mycanvas{
+	width: 78%;
+	height: 44em;
+}
+
+header.balkenoben {
+	background-color: darkgrey;
+	height: 9em;
+	
+}
+
+aside.balkenlinks {
+	float: left;
+	background-color: #009d9a;
+	width: 11%;
+	height: 44em;
+}
+
+aside.balkenrechts {
+	float: right;
+	background-color: #009d9a;
+	width: 11%;
+	height: 44em;
+}
+
+main.anzeigemitte {
+	height: 44em;
+	width: 100%;
+}
+
+
+footer.balkenunten {
+	background-color: darkgrey;
+	height: 9em;
+}
+
+button.button{
+	background-color: #334855;
+	color: white;
+	width: 100%;
+	height: 17%;
+	font-size: 130%;
+}
+
+h1{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	align-items: center;
+	font-size: 300%;
+}
+
+#servoanzeige{
+	float: right;
+	width: 20em;
+	height: 50em;
+}
+
+#motorundkühlung{
+	float: left;
+}
+
+#g1,#g2{
+	float:right;
+	height: 20em;
+	width: 20em;
+}
